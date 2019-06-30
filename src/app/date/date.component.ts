@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./date.component.css']
 })
 export class DateComponent implements OnInit {
+  items = ["Angular", "React", "Vue", "Bootstrap", "Node.js"];
   message: string;
   constructor() {
     setInterval(()=>{
